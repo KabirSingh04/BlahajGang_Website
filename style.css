@@ -1,0 +1,69 @@
+#logo {
+    height: 9.5vh;
+    max-width: 100%;
+    display: block;
+    float: left;
+    padding-left: 50px;
+}
+
+.para {
+    border: 2px solid #0066FF;
+    background-color: #ffc8dd;
+    padding: 5px;
+    font-size: x-large;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+body {
+    background-color: #cdb4db;
+}
+
+header {
+    font-size: 2.7vh;
+    height: 10vh;
+    width: 98%;
+    padding: 0vh 1% 0vh 1%;
+    margin: 0;
+    font-weight: 1000;
+}
+
+.head {
+    padding-top: 0.3%;
+}
+
+#main {
+    height: 83vh;
+    margin: 0;
+    width: 100%;
+    background-color: #ffc8dd;
+}
+
+.jumbotron {
+    background-color: #ffc8dd;
+    color: darkblue;
+    padding: 100px 25px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small {
+    color: #ffc8dd;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
